@@ -37,7 +37,6 @@ export default function MealDetail () {
     }
 
     useEffect(() => {
-        console.log(ids)
         setIsFavorited(() => {
             return ids.value.includes(mealId as string)
         })
